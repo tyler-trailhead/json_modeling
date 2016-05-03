@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'bundler/setup'
+require_relative '../lib/showtimes'
+
+puts "Enter your zipcode: "
+zip = gets.chomp
+
+showtimes = Showtimes.new(zip: zip).filter
+
+showtimes.each{|s|
+  puts s.cli_output
+}

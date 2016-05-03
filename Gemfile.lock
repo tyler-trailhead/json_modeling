@@ -1,0 +1,62 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.4.0)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    equalizer (0.0.11)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    hashdiff (0.3.0)
+    hashie (3.4.4)
+    ice_nine (0.11.2)
+    json (1.8.3)
+    map (6.6.0)
+    metaclass (0.0.4)
+    minispec-metadata (2.0.0)
+      minitest
+    minitest (5.8.4)
+    minitest-vcr (1.4.0)
+      minispec-metadata (~> 2.0)
+      minitest (>= 4.7.5)
+      vcr (>= 2.9)
+    mocha (1.1.0)
+      metaclass (~> 0.0.1)
+    multipart-post (2.0.0)
+    safe_yaml (1.0.4)
+    thread_safe (0.3.5)
+    vcr (3.0.1)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+    webmock (2.0.1)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  faraday
+  hashie
+  json
+  map
+  minitest-vcr
+  mocha
+  vcr
+  virtus
+  webmock
+
+BUNDLED WITH
+   1.11.2
